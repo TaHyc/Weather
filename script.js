@@ -12,8 +12,6 @@ let searchInp = document.querySelector('.search')
 let lastupdate = document.querySelector('#clouds')
 
 let city = 'Minsk'
-//   <img src='https://i.gifer.com/fzt2.gif' width="200">
-// <img src='https://i.gifer.com/604.gif'  width="200">
 
 document.addEventListener('keydown', (e) => {
 if(e.key === 'Enter') {
@@ -54,8 +52,8 @@ cityBlock.textContent = `${data.name}`
     console.log('перезапуск')
 })
 .catch(() => {
-    alert('This city not found')
-    city = 'London';
+    alert('Error: This city not found')
+    city = 'Minsk';
     init()
     searchInp.value = ''
 })

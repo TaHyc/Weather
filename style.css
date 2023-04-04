@@ -44,8 +44,8 @@ margin-left: 5vw;
     font-size: 70px;
 }
 #img_pogodi{
-width: 34vw;
-height: 30vw;
+    margin-left: 5vw;
+width: 20vw;
 }
 .blocksGor{
     text-transform: capitalize;
@@ -71,39 +71,7 @@ width: 100%;
 #speedImg{
     width: 4vw;
 }
-.btn-change-bg {
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    margin-top: 80px;
-}
 
-
-.shadow {
-    box-shadow:1px 1px 18px 0px rgba(50, 50, 50, 0.75);
-}
-
-.inp {
-    display: none;
-}
-
-.lab {
-    background: #000;
-    display: flex;
-    justify-content: center;
-    margin-top: 80px;
-    font-family: 'Lexend', sans-serif;
-    padding: 5px 10px;
-    text-transform: uppercase;
-    border: none;
-    outline: none;
-    transition: 0.5s;
-    cursor: pointer;
-    box-shadow:         8px 5px 0px 0px red;
-}
-.lab:hover {
-    box-shadow:         2px 2px 0px 0px red;
-}
 @media only screen and (min-width: 320px) and (max-width: 480px){
  .container {
     font-family: Open Sans;
@@ -116,6 +84,7 @@ width: 100%;
     width: 10vw;
 }
 #img_pogodi{
-margin-left: 5vw;
+width: 34vw;
+height: 30vw;
 }
 }
