@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+}
+
+.container {
+    font-family: Open Sans;
+    width: 70vw;
+    margin: 0 auto;
+    background: #CAE4EA;
+}
+
+.weather-img {
+    height: 50px;
+}
+
+.search {
+    width: 100%;
+    outline: none;
+    background: none;
+    font-size: 25px;
+    border: none;
+    border-bottom: 2px solid #fff;
+    padding: 5px 0;
+}
+.tempBlock{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#allTemp{
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.mainTemp {
+display: flex;
+align-items: center;
+font-size: 80px;
+margin-left: 5vw;
+}
+#city{
+    text-align: center;
+    font-size: 70px;
+}
+#img_pogodi{
+width: 34vw;
+height: 30vw;
+}
+.blocksGor{
+    text-transform: capitalize;
+margin-top: 5vw;
+display: flex;
+flex-direction: row;
+font-size: 18px;
+width: 100%;
+}
+.blocksVer{
+width: 50%;
+display: flex;
+flex-direction: column;
+}
+.blocks div{
+display: flex;
+flex-direction: row;
+align-items: center;
+border: 1px red solid;
+height: 60px;
+width: 100%;
+}
+#speedImg{
+    width: 4vw;
+}
+.btn-change-bg {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+
+.shadow {
+    box-shadow:1px 1px 18px 0px rgba(50, 50, 50, 0.75);
+}
+
+.inp {
+    display: none;
+}
+
+.lab {
+    background: #000;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    font-family: 'Lexend', sans-serif;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    transition: 0.5s;
+    cursor: pointer;
+    box-shadow:         8px 5px 0px 0px red;
+}
+.lab:hover {
+    box-shadow:         2px 2px 0px 0px red;
+}
+@media only screen and (min-width: 320px) and (max-width: 480px){
+ .container {
+    font-family: Open Sans;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background: #CAE4EA;
+}
+#speedImg{
+    width: 10vw;
+}
+#img_pogodi{
+margin-left: 5vw;
+}
+}
